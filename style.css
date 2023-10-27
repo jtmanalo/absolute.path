@@ -1,0 +1,10 @@
+.column {
+    float:left;
+    padding: 10px;
+}
+.row:after {
+content: "";
+display: table;
+clear: both;
+}
+.sidebar {white-space:normal}
